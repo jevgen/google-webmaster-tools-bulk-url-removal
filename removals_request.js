@@ -7,8 +7,7 @@ $(document).ready(function() {
       console.log(msg.removalMethod);
       $("select[name='removalmethod']").val(msg.removalMethod);
       
-      $submitBtn.	
-.delay(1000).trigger('click');
+      $submitBtn.delay(1000).trigger('click');
     }
   });
 
