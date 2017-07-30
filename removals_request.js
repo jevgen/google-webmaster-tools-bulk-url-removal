@@ -6,7 +6,9 @@ $(document).ready(function() {
     if(msg.type == 'state') {
       console.log(msg.removalMethod);
       $("select[name='removalmethod']").val(msg.removalMethod);
-      $submitBtn.trigger('click');
+      
+      $submitBtn.	
+.delay(1000).trigger('click');
     }
   });
 
